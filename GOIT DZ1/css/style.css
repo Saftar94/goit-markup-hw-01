@@ -1,0 +1,296 @@
+
+*{
+	/* margin: auto;
+	padding: auto;
+	outline: none;
+	border: none;
+	-webkit-box-sizing:border-box ;
+    box-sizing: border-box;
+	max-width: 1600px;
+    position: relative;
+    width: 1600px;
+    height: 2349px;
+	*/
+}
+.head{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;    
+}
+.web{  
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    list-style-type: none;
+    font-family: 'Hoefler Text';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: black;
+    text-decoration: none;
+    
+}
+.web span{
+    color: blue;
+}
+
+
+
+.Menu{
+    position: absolute;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    font-size: 0;
+    
+}
+.Menu li{
+    font-family: -apple-system;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    }  
+.Menu a{
+    text-decoration: none;
+    color: black;
+}
+    
+.Menu .study{
+    color: blue;
+
+}
+
+
+
+.contact{
+    list-style-type: none;
+}
+.Email{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    text-decoration: none;
+    color: blue;
+}
+.Tele{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.cap{
+    background-color: #2F303A;;
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+
+.cap .efect{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+
+
+
+
+.button{
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.feature{
+
+position: absolute;
+width: 1140px;
+height: 118px;
+left: 245px;
+top: 767px;
+}
+.feature li{
+    position: absolute;
+width: 270px;
+height: 16px;
+left: 245px;
+top: 767px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.feature1 .feature2 .feature3 .feature3 p{
+    position: absolute;
+width: 270px;
+height: 75px;
+left: 245px;
+top: 810px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+
+
+.getbusy{
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;
+}
+
+.getbusy h1{
+    position: absolute;
+width: 376px;
+height: 42px;
+left: 612px;
+top: 969px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.getbusy .box1{
+    position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+}
+.getbusy .box2{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;
+}
+.getbusy .box3{
+    
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;   
+}
+
+.oureteam{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+}
+
+.team{
+    position: absolute;
+width: 1170px;
+height: 368px;
+left: 215px;
+top: 1635px;
+}
+
+footer{
+
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+}
+
+.footerweb{  
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    list-style-type: none;
+    font-family: 'Hoefler Text';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color:white;
+    text-decoration: none;
+    
+}
+.footerweb span{
+    color: blue;
+}
+
+footer.address{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2268px;
+}
