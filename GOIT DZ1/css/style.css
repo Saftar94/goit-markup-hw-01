@@ -43,7 +43,7 @@
 
 
 
-.Menu{
+.menu{
     position: absolute;
     width: 302px;
     height: 16px;
@@ -52,7 +52,7 @@
     font-size: 0;
     
 }
-.Menu li{
+.menu li{
 
     font-family: -apple-system;
     font-style: normal;
@@ -65,12 +65,12 @@
     display: inline-block;
     margin-left: 20px;
     }  
-.Menu a{
+.menu a{
     text-decoration: none;
     color: black;
 }
     
-.Menu .study{
+.menu .study{
     color: blue;
 
 }
@@ -80,7 +80,7 @@
 .contact{
     list-style-type: none;
 }
-.Email{
+.email{
     position: absolute;
     width: 135px;
     height: 16px;
@@ -89,7 +89,7 @@
     text-decoration: none;
     color: blue;
 }
-.Tele{
+.tele{
     position: absolute;
     width: 135px;
     height: 16px;
