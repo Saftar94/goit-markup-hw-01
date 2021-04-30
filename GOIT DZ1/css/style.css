@@ -45,7 +45,7 @@
 
 .Menu{
     position: absolute;
-    width: 294px;
+    width: 302px;
     height: 16px;
     left: 453px;
     top: 32px;
@@ -53,6 +53,7 @@
     
 }
 .Menu li{
+
     font-family: -apple-system;
     font-style: normal;
     font-weight: 500;
@@ -90,7 +91,7 @@
 }
 .Tele{
     position: absolute;
-    width: 122px;
+    width: 135px;
     height: 16px;
     left: 1263px;
     top: 32px;
@@ -131,11 +132,7 @@
 }
 
 
-
-
-
-.button{
-
+button{
 position: absolute;
 width: 200px;
 height: 50px;
@@ -144,49 +141,78 @@ top: 430px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-}
-
-.feature{
-
-position: absolute;
-width: 1140px;
-height: 118px;
-left: 245px;
-top: 767px;
-}
-.feature li{
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 245px;
-top: 767px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 
-color: #212121;
+color: #FFFFFF;
 }
-.feature1 .feature2 .feature3 .feature3 p{
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 245px;
-top: 810px;
+button:hover{
+  
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+button,a{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
 
+
+
+.feature{
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+    overflow: hidden;
+}
+.feature li{
+    width: 270px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+
+    color: #212121;
+}
+
+.feature p{
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
+/* or 171% */
 letter-spacing: 0.03em;
-
 color: #757575;
 }
+
 
 
 
@@ -196,48 +222,30 @@ color: #757575;
     height: 386px;
     left: 215px;
     top: 969px;
+    
 }
 
 .getbusy h1{
-    position: absolute;
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
-
-.getbusy .box1{
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
-}
-.getbusy .box2{
+.getbusy ul{
     position: absolute;
     width: 370px;
     height: 294px;
-    left: 615px;
+    left: 215px;
     top: 1061px;
-}
-.getbusy .box3{
     
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;   
+
 }
+
 
 .oureteam{
     position: absolute;
@@ -246,14 +254,16 @@ top: 1061px;
     left: 0px;
     top: 1449px;
 }
-
+/* 
 .team{
     position: absolute;
 width: 1170px;
 height: 368px;
 left: 215px;
 top: 1635px;
-}
+} */
+
+
 
 footer{
 
